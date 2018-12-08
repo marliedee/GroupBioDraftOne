@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Group Project</string>
+    <string name="my_bio_text">I\'m a Haitian-American and lifelong student. Born and raised in Brooklyn, NY, I am currently pursing a career in tech by learning Android Development at the selective coding program called Pursuit. I love the start-up life and have worked for Taboola and quip, among other start-ups. I\'m looking forward towards a bright future and lead my life with optimism.</string>
+    <string name="create_your_own_adventure">Create Your Own Adventure</string>
+    <string name="bank_teller_demo">Bank Teller Demo</string>
+    <string name="madlibs_app_demo">MadLibs App Demo</string>
+    <string name="start">Start</string>
+    <string name="teamblackmirror">Team BLACK MIRROR</string>
+    <string name="works">Shows Works</string>
+    <string name="next">Next</string>
+    <string name="bio_image">bio_image</string>
+</resources>
