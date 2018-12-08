@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         Drawable textshape = res.getDrawable(R.drawable.textshapes);
         TextView tv = findViewById(R.id.textView);
         tv.setBackground(textshape);
+        TextView tv2 = findViewById(R.id.textviewclick);
+        tv2.setBackground(textshape);
 
         ImageButton button = findViewById(R.id.button3);
         TransitionDrawable drawable = (TransitionDrawable) button.getDrawable();

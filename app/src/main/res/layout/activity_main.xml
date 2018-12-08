@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#739ff1"
+    android:background="#000000"
     tools:context=".MainActivity"
     android:id="@+id/main"
     tools:layout_editor_absoluteY="81dp"
@@ -20,7 +20,7 @@
         android:textAlignment="center"
         android:textColor="#ffffff"
         android:textSize="32sp"
-        android:textStyle="italic" />
+        android:textStyle="italic"/>
 
     <ImageButton
         android:id="@+id/button3"
@@ -30,8 +30,8 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:src="@drawable/transitions"
-        android:text="@string/start"
+        app:srcCompat="@drawable/transitions"
+        android:text="Click Here"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
@@ -39,6 +39,20 @@
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.38" />
 
-
+    <TextView
+        android:id="@+id/textviewclick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/click_here"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="32sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

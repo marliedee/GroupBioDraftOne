@@ -3,4 +3,5 @@
     <item android:drawable="@drawable/shapes" />
     <item android:drawable="@drawable/images"/>
     <item android:drawable="@drawable/shapes" />
+
 </transition>

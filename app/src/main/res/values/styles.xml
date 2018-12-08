@@ -7,10 +7,5 @@
         <item name="colorPrimaryDark">#c30109f4</item>
         <item name="colorAccent">@color/colorAccent</item>
 
-
-    </style>
-    <style name="CodeFont">
-        <item name="android:textColor">#ffffff</item>
-        <item name="android:typeface">monospace</item>
     </style>
 </resources>
